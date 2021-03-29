@@ -1,5 +1,4 @@
-﻿
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 
 namespace lab21.Model.TariffPlans
 {
@@ -17,13 +16,5 @@ namespace lab21.Model.TariffPlans
         {
             Tariffs.Add(tariffPlan.TariffName, tariffPlan);
         }
-
-        //{
-        //    {"Unlimited"},
-        //    {"Advanced", 16.5},
-        //    {"Comfort", 9.9},
-        //    {"Beginner", 7.7},
-        //    {"Unknown", 0}
-        //};
     }
 }

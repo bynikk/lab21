@@ -1,14 +1,8 @@
 ﻿using lab21.Model;
 using lab21.Model.TariffPlans;
-using lab21.Utils;
 using lab21.Utils.Factories;
 using lab21.View;
-using System.Collections.Generic;
 using System.Diagnostics;
-
-// TODO
-// parallel
-
 
 namespace lab21
 {
@@ -25,7 +19,7 @@ namespace lab21
 
             UsersBase usersBase = new UsersBase();
 
-            for (int i = 0; i < 50_000_000; i++)
+            for (int i = 0; i < 10_000_000; i++)
             {
                 usersBase.AddUser(A1.MakeUser($"{i}", tariffs.Tariffs["Lite"]));
             }
