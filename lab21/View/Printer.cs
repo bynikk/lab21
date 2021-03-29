@@ -1,4 +1,7 @@
 ﻿using System;
+using System.Collections.Generic;
+
+using lab21.Model.TariffPlans;
 
 namespace lab21.View
 {
